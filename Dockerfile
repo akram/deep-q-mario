@@ -12,3 +12,5 @@ RUN apt-get install -y build-essential gcc g++ cmake curl libreadline-dev git-co
 RUN git config --global url.https://github.com/.insteadOf git://github.com/
 
 RUN    cd DeepQNetwork && ./install_dependencies.sh 
+
+ENTRYPOINT [/bin/sh]
