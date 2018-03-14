@@ -13,4 +13,3 @@ RUN git config --global url.https://github.com/.insteadOf git://github.com/
 
 RUN    cd DeepQNetwork && ./install_dependencies.sh 
 
-ENTRYPOINT [/bin/sh]
